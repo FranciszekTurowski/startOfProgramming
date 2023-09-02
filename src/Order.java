@@ -1,0 +1,44 @@
+public class Order {
+    public String getItem() {
+        return item;
+    }
+
+    public void setItem(String item) {
+        this.item = item;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public OrderStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
+
+    public Order(String item, double price, OrderStatus status) {
+        this.item = item;
+        this.price = price;
+        this.status = status;
+    }
+
+    private String item;
+    private double price;
+    private OrderStatus status;
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "item='" + item + '\'' +
+                ", price=" + price +
+                ", status=" + status +
+                '}';
+    }
+}
