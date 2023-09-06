@@ -1,43 +1,40 @@
-import java.util.Objects;
+class Student {
+    private int studentId;
+    private String firstName;
+    private String lastName;
 
-public class Student {
-
-    String name;
-    int wiek;
-
-    public Student(String name, int wiek) {
-        this.name = name;
-        this.wiek = wiek;
+    public Student(int studentId, String firstName, String lastName) {
+        this.studentId = studentId;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getName() {
-        return name;
+    public int getStudentId() {
+        return studentId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
     }
 
-    public int getWiek() {
-        return wiek;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setWiek(int wiek) {
-        this.wiek = wiek;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     @Override
-    public int hashCode() {
-        return Objects.hash(name, wiek);
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-       if(this == obj)
-           return true;
-       if(obj == null)
-           return false;
-       return false;
-
+    public String toString() {
+        return studentId + " " + firstName + " " + lastName;
     }
 }
