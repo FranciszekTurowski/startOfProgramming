@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb68509-2cb1-4c70-8519-7f16dd97963b" name="Changes" comment="Initial commit part 2">
-      <change afterPath="$PROJECT_DIR$/src/StringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strrr.java" afterDir="false" />
+    <list default="true" id="cfb68509-2cb1-4c70-8519-7f16dd97963b" name="Changes" comment="Initial commit part 3">
+      <change afterPath="$PROJECT_DIR$/src/BiggestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompareNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Formatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/ShapeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/Amphibia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/other/Terst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,49 +68,55 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringHomework">
-    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringExample" />
+  <component name="RunManager" selected="Application.FileWriterTest">
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarTest" />
       <module name="JavaStartProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringHomework" />
+    <configuration name="CompareNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CompareNumbers" />
       <module name="JavaStartProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringTest" />
+    <configuration name="FileCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileCreator" />
       <module name="JavaStartProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stringi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stringi" />
+    <configuration name="FileWriterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileWriterTest" />
       <module name="JavaStartProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strrr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strrr" />
+    <configuration name="Terst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.Terst" />
       <module name="JavaStartProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringHomework" />
-        <item itemvalue="Application.Strrr" />
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.StringExample" />
-        <item itemvalue="Application.Stringi" />
+        <item itemvalue="Application.FileWriterTest" />
+        <item itemvalue="Application.FileCreator" />
+        <item itemvalue="Application.CompareNumbers" />
+        <item itemvalue="Application.CarTest" />
+        <item itemvalue="Application.Terst" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +143,35 @@
       <option name="project" value="LOCAL" />
       <updated>1693820615365</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit part 2">
+      <created>1693837704866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693837704866</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit part 3">
+      <created>1693999664642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693999664643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit part 3">
+      <created>1694016731712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694016731712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit part 3">
+      <created>1694035486824</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694035486824</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit part 2" />
+    <MESSAGE value="Initial commit part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit part 3" />
   </component>
 </project>
